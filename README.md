@@ -5,7 +5,8 @@ Firstly add 2 dependecy that is required for retrofit and json parsing in gradle
 
 that is something like this
 
-~~~com.retrofit2:retrofit:2.9.0
+~~~
+com.retrofit2:retrofit:2.9.0
 
 com.retrofit2:gson-converter:2.9.0
 ~~~
@@ -37,7 +38,7 @@ only one simple xml file which displays get_data from API in textView
 
 
 ~~~
-
+~~~
 WE NEED THREE THINGS
 1> DataModel.kt - It is data class which will model data coming from API (id,name,address,etc)
 2> ApiInterface.kt -In which we will define a  "getData function" which  fetch data from API
@@ -45,6 +46,7 @@ WE NEED THREE THINGS
 
 
 ------------------
+~~~
 
 1>DataModelClass.kt  (DataModel.kt)
 
