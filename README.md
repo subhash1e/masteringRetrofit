@@ -132,5 +132,5 @@ class MainActivity : AppCompatActivity() {
 ~~~
 
 4>> Lastly don't forget to enable Internet uses permission inside manifest file
-
+,
 
