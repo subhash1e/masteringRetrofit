@@ -5,14 +5,16 @@ Firstly add 2 dependecy that is required for retrofit and json parsing in gradle
 
 that is something like this
 
-com.retrofit2:retrofit:2.9.0
+~~~com.retrofit2:retrofit:2.9.0
 
 com.retrofit2:gson-converter:2.9.0
+~~~
+
 __________________________
 only one simple xml file which displays get_data from API in textView
 
 
-'''
+~~~
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -34,7 +36,7 @@ only one simple xml file which displays get_data from API in textView
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-'''
+~~~
 
 WE NEED THREE THINGS
 1> DataModel.kt - It is data class which will model data coming from API (id,name,address,etc)
