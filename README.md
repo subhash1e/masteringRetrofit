@@ -6,9 +6,8 @@ Firstly add 2 dependecy that is required for retrofit and json parsing in gradle
 that is something like this
 
 ~~~
-com.retrofit2:retrofit:2.9.0
-
-com.retrofit2:gson-converter:2.9.0
+implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
 ~~~
 
 __________________________
