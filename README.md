@@ -1,7 +1,7 @@
 # masteringRetrofit
 
 
-Firstly add 2 dependecy that is required for retrofit and json parsing in gradle file
+Firstly add 2 dependency that is required for retrofit and json parsing in gradle file
 
 that is something like this
 
