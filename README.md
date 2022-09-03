@@ -118,8 +118,12 @@ class MainActivity : AppCompatActivity() {
                 call: Call<List<DataModelClass>>,
                 response: Response<List<DataModelClass>>
             ) {
+            //good 
                 if(response.code()==200){
-                    tv1.text = response.body()!![0].definition
+                   //access the data from api
+                   // here I have copied my data to DataModelClass object
+                   // so getting JsonObject[0].definition
+                   tv1.text = response.body()!![0].definition
                 }
             }
 
