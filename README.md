@@ -110,10 +110,8 @@ class MainActivity : AppCompatActivity() {
             
             
         val myApiCall = retrofit.create(Api::class.java)
-        
-         val call = myApiCall.getFromApi()
          
-        call.enqueue(object : Callback<List<DataModelClass>>{
+        myApiCall.getFromApi().enqueue(object : Callback<List<DataModelClass>>{
             override fun onResponse(
                 call: Call<List<DataModelClass>>,
                 response: Response<List<DataModelClass>>
