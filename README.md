@@ -69,8 +69,9 @@ pronunciation	"Slofor"
 
 2>Api.kt (ApiInterface.kt)
 
-package com.example.masteringretrofit.api
 ~~~
+package com.example.masteringretrofit.api
+
 import retrofit2.Call
 import retrofit2.http.GET
 
