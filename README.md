@@ -41,7 +41,7 @@ only one simple xml file which displays get_data from API in textView
 
 ~~~
 1> DataModel.kt - It is data class which will model data coming from API (id,name,address,etc)
-2> ApiInterface.kt -In which we will define a  "getData function" which  fetch data from API
+2> ApiInterface.kt -In which we will define a  "getData function" which will fetch data from API
 3> MainActivity.kt - To call API and getData function from ApiInterface.kt
 
 
