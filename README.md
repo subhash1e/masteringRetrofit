@@ -77,7 +77,6 @@ import retrofit2.http.GET
 
 interface Api {
 //   "https://random-words-api.vercel.app/word" 
-//   fixed-url =  "https://random-words-api.vercel.app/"    , variable-url =   "word"
 
 @GET("word")
 fun getFromApi(): Call<List<DataModelClass>>
