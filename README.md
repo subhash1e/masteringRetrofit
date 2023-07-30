@@ -77,6 +77,10 @@ import retrofit2.http.GET
 
 interface Api {
 //   "https://random-words-api.vercel.app/word" 
+// you can add variable inside GET("/{var1}") and pass it through
+//function getVar1FromApi(var1:String):..
+//function getVar2FromApi(var2:String):..
+// and so on....
 
 @GET("word")
 fun getFromApi(): Call<List<DataModelClass>>
